@@ -31,6 +31,36 @@
             bindings = <&kp LS(LEFT_ALT)>;
             key-positions = <25 26>;
         };
+
+        colon {
+            bindings = <&kp COLON>;
+            key-positions = <22 21>;
+        };
+
+        semicolon {
+            bindings = <&kp SEMICOLON>;
+            key-positions = <20 22>;
+        };
+
+        underscore {
+            bindings = <&kp UNDER>;
+            key-positions = <30 31>;
+        };
+
+        dash {
+            bindings = <&kp KP_MINUS>;
+            key-positions = <18 19>;
+        };
+
+        equal {
+            bindings = <&kp KP_EQUAL>;
+            key-positions = <18 19 20>;
+        };
+
+        plus {
+            bindings = <&kp KP_PLUS>;
+            key-positions = <30 31 32>;
+        };
     };
 
     keymap {
