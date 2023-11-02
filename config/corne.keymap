@@ -19,6 +19,20 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        escape {
+            bindings = <&kp ESC>;
+            key-positions = <1 2>;
+        };
+
+        altshift {
+            bindings = <&kp LS(LEFT_ALT)>;
+            key-positions = <25 26>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
