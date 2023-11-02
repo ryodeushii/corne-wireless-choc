@@ -39,7 +39,7 @@
 
         semicolon {
             bindings = <&kp SEMICOLON>;
-            key-positions = <20 22>;
+            key-positions = <20 21>;
         };
 
         underscore {
@@ -60,6 +60,11 @@
         plus {
             bindings = <&kp KP_PLUS>;
             key-positions = <30 31 32>;
+        };
+
+        delete {
+            bindings = <&kp DELETE>;
+            key-positions = <11 10>;
         };
     };
 
@@ -89,7 +94,7 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB                 &kp N1        &kp N2        &kp N3        &kp N4        &kp N5          &kp N6       &kp N7    &kp N8    &kp N9     &kp N0       &kp DEL
+&kp TAB                 &kp N1        &kp N2        &kp N3        &kp N4        &kp N5          &kp N6       &kp N7    &kp N8    &kp N9     &kp N0       &kp BACKSPACE
 &bt BT_CLR              &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp LEFT     &kp DOWN  &kp UP    &kp RIGHT  &kp HOME     &kp END
 &shift_caps_word_dance  &trans        &trans        &trans        &trans        &trans          &key_repeat  &trans    &trans    &trans     &kp PAGE_UP  &kp PAGE_DOWN
                                                     &kp LGUI      &trans        &kp SPACE       &kp RET      &trans    &kp RALT
