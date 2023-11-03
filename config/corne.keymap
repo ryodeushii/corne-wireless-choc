@@ -66,6 +66,16 @@
             bindings = <&kp DELETE>;
             key-positions = <11 10>;
         };
+
+        play_pause {
+            bindings = <&kp K_PLAY_PAUSE>;
+            key-positions = <11 23 35>;
+        };
+
+        fn_layer {
+            bindings = <&tog 3>;
+            key-positions = <18 31 20>;
+        };
     };
 
     keymap {
@@ -113,6 +123,15 @@
 &kp LCTRL               &kt F1    &kp F2  &kp F3    &kp F4    &trans        &kp MINUS  &kp EQUAL  &kp LBKT         &kp RBKT  &kp BSLH  &kp GRAVE
 &shift_caps_word_dance  &trans    &trans  &trans    &trans    &caps_word    &kp UNDER  &kp PLUS   &kp LBRC         &kp RBRC  &kp PIPE  &kp TILDE
                                           &kp LGUI  &trans    &kp SPACE     &kp RET    &trans     &kp RALT
+            >;
+        };
+
+        layer_3 {
+            bindings = <
+&trans  &kp F1   &kp F2   &kp F3  &kp F4  &kp F5     &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp F6   &kp F7   &kp F8  &kp F9  &kp F10    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp F11  &kp F12  &trans  &trans  &trans     &trans  &trans  &trans  &trans  &trans  &trans
+                          &trans  &trans  &trans     &trans  &trans  &trans
             >;
         };
     };
