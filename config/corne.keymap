@@ -54,12 +54,12 @@
 
         equal {
             bindings = <&kp EQUAL>;
-            key-positions = <18 19 20>;
+            key-positions = <18 20>;
         };
 
         plus {
             bindings = <&kp KP_PLUS>;
-            key-positions = <30 31 32>;
+            key-positions = <30 32>;
         };
 
         delete {
@@ -75,6 +75,21 @@
         fn_layer {
             bindings = <&tog 3>;
             key-positions = <18 31 20>;
+        };
+
+        pipe {
+            bindings = <&kp PIPE>;
+            key-positions = <22 34>;
+        };
+
+        prev {
+            bindings = <&kp K_PREV>;
+            key-positions = <11 23>;
+        };
+
+        next {
+            bindings = <&kp K_NEXT>;
+            key-positions = <23 35>;
         };
     };
 
@@ -104,10 +119,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB                 &kp N1        &kp N2        &kp N3        &kp N4        &kp N5          &kp N6       &kp N7    &kp N8    &kp N9     &kp N0       &kp BACKSPACE
-&bt BT_CLR              &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp LEFT     &kp DOWN  &kp UP    &kp RIGHT  &kp HOME     &kp END
-&shift_caps_word_dance  &trans        &trans        &trans        &trans        &trans          &key_repeat  &trans    &trans    &trans     &kp PAGE_UP  &kp PAGE_DOWN
-                                                    &kp LGUI      &trans        &kp SPACE       &kp RET      &trans    &kp RALT
+&kp TAB                 &kp N1        &kp N2        &kp N3        &kp N4        &kp N5          &kp N6    &kp N7    &kp N8    &kp N9     &kp N0       &kp BACKSPACE
+&bt BT_CLR              &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT  &kp HOME     &kp END
+&shift_caps_word_dance  &trans        &trans        &trans        &trans        &trans          &trans    &trans    &trans    &trans     &kp PAGE_UP  &kp PAGE_DOWN
+                                                    &kp LGUI      &trans        &kp SPACE       &kp RET   &trans    &kp RALT
             >;
         };
 
