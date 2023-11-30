@@ -68,7 +68,7 @@
 
         pipe {
             bindings = <&kp PIPE>;
-            key-positions = <22 34>;
+            key-positions = <40 31 19>;
         };
 
         f_keys_layer {
@@ -96,11 +96,6 @@
             key-positions = <7 8 21>;
         };
 
-        question {
-            bindings = <&kp QUESTION>;
-            key-positions = <9 20 19>;
-        };
-
         chaching {
             bindings = <&kp DOLLAR>;
             key-positions = <9 32 31>;
@@ -108,17 +103,7 @@
 
         amp {
             bindings = <&kp AMPERSAND>;
-            key-positions = <18 20>;
-        };
-
-        hash {
-            bindings = <&kp HASH>;
-            key-positions = <6 7 8>;
-        };
-
-        at {
-            bindings = <&kp AT>;
-            key-positions = <21 20 7>;
+            key-positions = <18 20 40>;
         };
 
         asterisk {
@@ -133,37 +118,32 @@
 
         right_slash {
             bindings = <&kp SLASH>;
-            key-positions = <31 20 9>;
+            key-positions = <37 27 16>;
         };
 
         left_slash {
             bindings = <&kp BACKSLASH>;
-            key-positions = <20 7 33>;
-        };
-
-        caret {
-            bindings = <&kp CARET>;
-            key-positions = <7 18 20>;
+            key-positions = <37 14 27>;
         };
 
         tilde {
             bindings = <&kp TILDE>;
-            key-positions = <19 10>;
+            key-positions = <16 1 37>;
         };
 
         grave {
             bindings = <&kp GRAVE>;
-            key-positions = <6 19>;
-        };
-
-        percent {
-            bindings = <&kp PERCENT>;
-            key-positions = <7 33>;
+            key-positions = <16 3 37>;
         };
 
         numbers_layer {
             bindings = <&mo 4>;
             key-positions = <16 17>;
+        };
+
+        print_screen {
+            bindings = <&kp PRINTSCREEN>;
+            key-positions = <36 37>;
         };
     };
 
