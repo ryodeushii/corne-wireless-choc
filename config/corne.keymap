@@ -83,12 +83,12 @@
 
         lt {
             bindings = <&kp LT>;
-            key-positions = <19 8>;
+            key-positions = <19 8 40>;
         };
 
         gt {
             bindings = <&kp GT>;
-            key-positions = <7 20>;
+            key-positions = <7 20 40>;
         };
 
         bang {
