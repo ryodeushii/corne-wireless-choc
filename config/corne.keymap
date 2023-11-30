@@ -118,22 +118,22 @@
 
         right_slash {
             bindings = <&kp SLASH>;
-            key-positions = <37 27 16>;
+            key-positions = <4 15 26>;
         };
 
         left_slash {
             bindings = <&kp BACKSLASH>;
-            key-positions = <37 14 27>;
+            key-positions = <28 15 2>;
         };
 
         tilde {
             bindings = <&kp TILDE>;
-            key-positions = <16 1 37>;
+            key-positions = <15 4 14>;
         };
 
         grave {
             bindings = <&kp GRAVE>;
-            key-positions = <16 3 37>;
+            key-positions = <14 15 28>;
         };
 
         numbers_layer {
