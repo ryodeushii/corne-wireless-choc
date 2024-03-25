@@ -154,7 +154,7 @@
         };
 
         eq {
-            bindings = <&kp KP_EQUAL>;
+            bindings = <&kp EQUAL>;
             key-positions = <19 20>;
         };
 
