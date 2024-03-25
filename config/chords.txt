@@ -20,7 +20,6 @@ what wh
 there thr
 can c
 const co
-class cl
 out ou
 other ot
 were we
@@ -57,7 +56,7 @@ has has
 look lk
 more mo
 day d
-could cou
+could cl
 come cm
 did di
 sound so
@@ -414,7 +413,7 @@ fact fac
 inch inc
 lot lot
 nothing noth
-course crs
+course cou
 stay sty
 wheel whel
 full fu

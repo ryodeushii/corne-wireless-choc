@@ -256,12 +256,6 @@
         bindings = <&kp C &kp O &kp N &kp S &kp T &kp SPACE>;
 
     )
-    ZMK_MACRO(m_class,
-        wait-ms = <MACRO_WAIT>;
-        tap-ms = <MACRO_TAP>;
-        bindings = <&kp C &kp L &kp A &kp S &kp S &kp SPACE>;
-
-    )
     ZMK_MACRO(m_out,
         wait-ms = <MACRO_WAIT>;
         tap-ms = <MACRO_TAP>;
@@ -3012,12 +3006,6 @@
       key-positions = <P_COMBO P_C P_O>;
       bindings = <&m_const>;
     };
-    combo_m_class {
-
-      timeout-ms = <COMBO_TIMEOUT>;
-      key-positions = <P_COMBO P_C P_L>;
-      bindings = <&m_class>;
-    };
     combo_m_out {
 
       timeout-ms = <COMBO_TIMEOUT>;
@@ -3237,7 +3225,7 @@
     combo_m_could {
 
       timeout-ms = <COMBO_TIMEOUT>;
-      key-positions = <P_COMBO P_C P_O P_U>;
+      key-positions = <P_COMBO P_C P_L>;
       bindings = <&m_could>;
     };
     combo_m_come {
@@ -5379,7 +5367,7 @@
     combo_m_course {
 
       timeout-ms = <COMBO_TIMEOUT>;
-      key-positions = <P_COMBO P_C P_R P_S>;
+      key-positions = <P_COMBO P_C P_O P_U>;
       bindings = <&m_course>;
     };
     combo_m_stay {

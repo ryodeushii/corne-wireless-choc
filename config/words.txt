@@ -35,7 +35,6 @@ there
 we
 can
 const
-class
 out
 other
 were
