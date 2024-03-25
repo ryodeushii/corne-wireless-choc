@@ -19,6 +19,8 @@ some s
 what wh
 there thr
 can c
+const co
+class cl
 out ou
 other ot
 were we
@@ -55,7 +57,7 @@ has has
 look lk
 more mo
 day d
-could co
+could cou
 come cm
 did di
 sound so
@@ -212,7 +214,7 @@ run ru
 don't don
 while whl
 press pr
-close cl
+close clo
 night ni
 real rea
 few fe
@@ -263,7 +265,7 @@ horse hor
 cut cu
 sure sr
 watch wtc
-color col
+color clr
 face fc
 wood wd
 main mai
@@ -412,11 +414,13 @@ fact fac
 inch inc
 lot lot
 nothing noth
-course cou
+course crs
 stay sty
 wheel whel
 full fu
 force frc
+func fun
+function fnc
 blue blu
 object obj
 decide dc

@@ -34,6 +34,8 @@ what
 there
 we
 can
+const
+class
 out
 other
 were
@@ -444,6 +446,8 @@ stay
 wheel
 full
 force
+func
+function
 blue
 object
 decide
