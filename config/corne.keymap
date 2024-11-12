@@ -134,6 +134,22 @@
         extra4 {
             status = "reserved";
         };
+
+        extra5 {
+            status = "reserved";
+        };
+
+        extra6 {
+            status = "reserved";
+        };
+
+        extra7 {
+            status = "reserved";
+        };
+
+        extra8 {
+            status = "reserved";
+        };
     };
 
     conditional_layers { compatible = "zmk,conditional-layers"; };
